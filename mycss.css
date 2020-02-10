@@ -46,10 +46,6 @@ body {
     display: flex;
     margin-right: 2rem;
 }
-.rowBanner::before {
-    content: " ";
-    display: table;
-}
 .bannerText {
     width: 100%;
     margin-top: 18.6875rem;
@@ -91,19 +87,10 @@ a {
     max-width: 63.75rem;
     margin: 0 auto;
 }
-.aboutMeRow::before {
-
-    content: " ";
-    display: table;
-}
 .about img {
-
-    width: 25%;
-    position: relative;
     padding: 0 1.25rem;
     min-height: 0.0625rem;
     float: left;
-
     position: relative;
     width: 18.75rem;
     height: 18.75rem;
