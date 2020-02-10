@@ -71,6 +71,12 @@ li {
 a {
     text-decoration: none;
     color: var( --main-white);
+   
+}
+a[class=link]:hover {
+    background-color: greenyellow;
+    border-radius: 0.5rem;
+    padding: 1rem;
 }
 .about {
     background: #2B2B2B;
@@ -151,13 +157,17 @@ a {
 .project p {
     color: var(--main-white);
     background-color: black;
-    margin-left: 2rem;
+    margin-left: 2rem; 
     padding: 0.9375rem;
     width: 80%;
     padding: 0.75rem;
     text-align: center;
     margin-top: 3.5625rem;
     border-radius: 3rem;
+}
+.project p:hover {
+    background-color: greenyellow;
+    color: black;
 }
 .projects-grid img {
     position: relative;
@@ -175,6 +185,7 @@ a {
     border: 0.3125rem  solid white;
     background-color: var(--main-white);
     margin: 1rem;
+    border-radius: 2rem;
 }
 footer {
     padding-top: 3rem;
@@ -191,12 +202,20 @@ footer {
     max-width: 63.75rem;
     margin: 0 auto;
 }
-.footerLinks {
+.socialLinks {
     position: relative;
     padding: 0 1.25rem;
     min-height: 0.0625rem;
     float: left;
     left: 15.875rem;
+}
+.socialLinks ul{
+    margin: 18px 0 30px 0;
+    padding: 0;
+    font-size: 30px;
+}
+.socialLinks ul:first-child {
+    margin-left: 8rem;
 }
 .copyright {
     margin: 5rem;
