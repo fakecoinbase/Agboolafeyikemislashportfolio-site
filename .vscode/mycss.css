@@ -1,7 +1,6 @@
 :root {
     --main-white: #fff;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -29,7 +28,6 @@ body {
   position: absolute;
   z-index: -1;  
 }
-
 .nav {
     display: flex;
     position: fixed;
@@ -40,20 +38,14 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.15625rem;
     justify-content: space-around;
-
 }
 .nav-list {
     display: flex;
     margin-right: 2rem;
 }
-.rowBanner::before {
-    content: " ";
-    display: table;
-}
 .bannerText {
     width: 100%;
     margin-top: 18.6875rem;
-    
 }
 .bannerText h1 {
     color: greenyellow;
@@ -79,7 +71,7 @@ li {
 a {
     text-decoration: none;
     color: var( --main-white);
-} 
+}
 .about {
     background: #2B2B2B;
     padding-top: 6rem;
@@ -91,19 +83,10 @@ a {
     max-width: 63.75rem;
     margin: 0 auto;
 }
-.aboutMeRow::before {
-
-    content: " ";
-    display: table;
-}
 .about img {
-
-    width: 25%;
-    position: relative;
     padding: 0 1.25rem;
     min-height: 0.0625rem;
     float: left;
-
     position: relative;
     width: 18.75rem;
     height: 18.75rem;
@@ -193,7 +176,6 @@ a {
     background-color: var(--main-white);
     margin: 1rem;
 }
-
 footer {
     padding-top: 3rem;
     margin-bottom: 3rem;
@@ -203,13 +185,11 @@ footer {
     position: relative;
     display: flex;
     color: var(--main-white);
-
 }
 .footerOne {
     width: 96%;
     max-width: 63.75rem;
     margin: 0 auto;
-
 }
 .footerLinks {
     position: relative;
@@ -224,5 +204,3 @@ footer {
     position: relative;
     right: 6rem;
 }
-
-
