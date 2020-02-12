@@ -1,0 +1,22 @@
+
+// Links
+%a-shared {
+    text-decoration: none;
+    color: $main-white;
+}
+a {
+    @extend %a-shared;
+}
+%link-hover {
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+a[class=link]:hover {
+    @extend %link-hover;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+a[class=resume]:hover {
+    @extend %link-hover;
+    background-color:black;
+} 

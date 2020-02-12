@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agboolafeyiemi/portfolio-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agboolafeyiemi/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/Agboolafeyiemi/portfolio-site#readme"
+}
