@@ -179,6 +179,9 @@ body {
   margin: 0px auto;
   border-radius: 1rem; }
 
+.section-title {
+  margin-top: -1rem; }
+
 .text-fields {
   display: grid;
   grid-template-areas: "name" "email" "subject" "message message";
@@ -235,7 +238,7 @@ footer {
   padding: 0 1.25rem;
   min-height: 0.0625rem;
   float: left;
-  left: 42.875rem; }
+  left: 59.875rem; }
   .socialLinks ul {
     margin: 18px 0 30px 0;
     padding: 0;
@@ -250,11 +253,11 @@ footer {
     margin-left: 4rem; }
 
 .copyright {
-  margin: 5rem;
+  margin: 4rem 19rem;
   padding: 0;
   position: relative;
   right: 11rem;
-  left: 20rem; }
+  left: 24rem; }
   .copyright li {
     display: inline;
     margin: 0.3rem;
