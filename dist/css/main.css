@@ -168,14 +168,20 @@ body {
   align-content: center;
   justify-content: center;
   text-align: center;
-  background-image: linear-gradient(80deg, darkslategray, greenyellow); }
+  background-color: #2B2B2B;
+  padding: 3rem 10rem; }
 
 .container {
-  margin: 2rem 20rem;
-  padding: 1rem; }
+  padding: 3rem;
+  background-color: #fff;
+  width: 53%;
+  align-items: center;
+  margin: 0px auto;
+  border-radius: 1rem; }
 
 .text-fields {
   display: grid;
+  grid-template-areas: "name" "email" "subject" "message message";
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem;
   padding: 2rem; }
@@ -197,7 +203,7 @@ body {
 .btn-dark {
   min-width: 40%;
   padding: 0.5rem;
-  background-color: black;
+  background-color: greenyellow;
   color: #fff;
   border-radius: 0.5rem;
   height: 3rem;
@@ -205,7 +211,7 @@ body {
   font-weight: 2rem; }
 
 .btn-dark:hover {
-  background-color: greenyellow;
+  background-color: black;
   transform: scale(3rem); }
 
 footer {
@@ -229,7 +235,7 @@ footer {
   padding: 0 1.25rem;
   min-height: 0.0625rem;
   float: left;
-  left: 15.875rem; }
+  left: 42.875rem; }
   .socialLinks ul {
     margin: 18px 0 30px 0;
     padding: 0;
@@ -247,7 +253,8 @@ footer {
   margin: 5rem;
   padding: 0;
   position: relative;
-  right: 11rem; }
+  right: 11rem;
+  left: 20rem; }
   .copyright li {
     display: inline;
     margin: 0.3rem;
