@@ -202,36 +202,45 @@ body {
   align-content: center;
   justify-content: center;
   text-align: center;
+  background-image: linear-gradient(80deg, darkslategray, greenyellow);
 }
+.container{
+  margin: 2rem 20rem;
+  padding: 1rem;
+}
+
 .text-fields {
   display: grid;
-  grid-template-areas:
-    "name"
-    "email"
-    "subject"
-    "message message";
+  // grid-template-areas:
+  //   "name"
+  //   "email"
+  //   "subject"
+  //   "message message";
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem;
   padding: 2rem;
 
   //Grid area
   .name-input {
-    grid-area: 'name';
+    grid-area: "name";
   }
   .subject-input {
-    grid-area: 'subject';
+    grid-area: "subject";
   }
   .email-input {
-    grid-area: 'email';
+    grid-area: "email";
   }
   .message-input {
-    grid-area: 'message';
+    grid-area: "message";
     height: 15rem;
   }
 }
 .text-input {
-    padding: 0.7rem;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  font-size: 1rem;
 }
+
 .btn-dark {
   min-width: 40%;
   padding: 0.5rem;
@@ -241,11 +250,10 @@ body {
   height: 3rem;
   font-size: 1rem;
   font-weight: 2rem;
-
 }
-.btn-dark:hover{
-    background-color: $primary-color;
-    transform: scale(3rem);
+.btn-dark:hover {
+  background-color: $primary-color;
+  transform: scale(3rem);
 }
 footer {
   padding-top: 3rem;
@@ -261,6 +269,7 @@ footer {
   width: 96%;
   max-width: 63.75rem;
   margin: 0 auto;
+  display: contents;
 }
 .socialLinks {
   position: relative;
