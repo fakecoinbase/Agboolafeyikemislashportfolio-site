@@ -129,7 +129,7 @@ body {
   background-color: darkslategray; }
   .projects h2 {
     color: #fff;
-    max-width: 40rem;
+    max-width: 100rem;
     margin: 0 auto 6rem auto; }
   .projects .projects-grid {
     display: flex;
@@ -164,6 +164,44 @@ body {
       align-items: center;
       font-size: 1rem; }
 
+.contact-a {
+  align-content: center;
+  justify-content: center;
+  text-align: center; }
+
+.text-fields {
+  display: grid;
+  grid-template-areas: "name" "email" "subject" "message message";
+  grid-gap: 1.2rem;
+  margin-bottom: 1.2rem;
+  padding: 2rem; }
+  .text-fields .name-input {
+    grid-area: 'name'; }
+  .text-fields .subject-input {
+    grid-area: 'subject'; }
+  .text-fields .email-input {
+    grid-area: 'email'; }
+  .text-fields .message-input {
+    grid-area: 'message';
+    height: 15rem; }
+
+.text-input {
+  padding: 0.7rem; }
+
+.btn-dark {
+  min-width: 40%;
+  padding: 0.5rem;
+  background-color: black;
+  color: #fff;
+  border-radius: 0.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 2rem; }
+
+.btn-dark:hover {
+  background-color: greenyellow;
+  transform: scale(3rem); }
+
 footer {
   padding-top: 3rem;
   margin-bottom: 3rem;
@@ -193,7 +231,8 @@ footer {
     display: inline-block;
     padding: 0.5rem 0.8125rem;
     line-height: 2rem;
-    align-items: center; }
+    align-items: center;
+    margin-left: -10rem; }
   .socialLinks ul:first-child {
     margin-left: 4rem; }
 
@@ -201,7 +240,7 @@ footer {
   margin: 5rem;
   padding: 0;
   position: relative;
-  right: 6rem; }
+  right: 11rem; }
   .copyright li {
     display: inline;
     margin: 0.3rem;
