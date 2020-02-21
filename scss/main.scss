@@ -9,6 +9,7 @@ body {
 }
 
 //Header
+
 .mainHeader {
   position: relative;
   height: 50rem;
@@ -31,6 +32,7 @@ body {
 }
 
 //Nav
+
 .nav {
   display: flex;
   position: fixed;
@@ -77,6 +79,7 @@ body {
 }
 
 //About Me section
+
 .about {
   background: $bg-color;
   padding-top: 6rem;
@@ -144,9 +147,11 @@ body {
   }
 }
 
+//Projects
+
 .projects {
   text-align: center;
-  padding: 5rem 2rem;
+  padding: 3rem 2rem;
   background-color: darkslategray;
 
   h2 {
@@ -155,41 +160,31 @@ body {
     margin: 0 auto 6rem auto;
   }
   .projects-grid {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 7rem;
 
     img {
       position: relative;
-      width: 18.75rem;
-      height: 18.75rem;
-      top: 2.5rem;
-      border-radius: 100%;
-      right: 0.25rem;
+      width: 23.9rem;
+      height: 20rem;
+      top: 0rem;
       object-fit: cover;
     }
   }
   p {
-    color: $main-white;
-    background-color: black;
-    margin-left: 2rem;
-    padding: 0.9375rem;
-    width: 80%;
-    text-align: center;
-    margin-top: 3.5625rem;
-    border-radius: 3rem;
-
-    &:hover {
-      background-color: $primary-color;
-      color: black;
-    }
+    font-size: 2rem;
+    padding: 0 0.5rem;
   }
 
   .project {
-    border: 0.3125rem solid white;
-    background-color: $main-white;
-    margin: 1rem;
-    border-radius: 2rem;
+    background: cadetblue;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
 
     h4 {
       align-items: center;
@@ -197,16 +192,123 @@ body {
     }
   }
 }
+
+//Resume
+
+.resume {
+  background: #fff;
+  padding-top: 90px;
+  padding-bottom: 72px;
+  overflow: hidden;
+}
+.skill {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.header {
+  padding-top: 9px;
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: left;
+  width: 25%;
+}
+.header h2 {
+  font: 18px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.header h2 span {
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 6px;
+}
+.row-skill {
+  padding-right: 10%;
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: right;
+  width: 75%;
+  bottom: 2rem;
+}
+
+.row-skill p {
+  margin: 0 0 30px 0;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-left: 2.3rem;
+}
+.bar {
+  width: 95%;
+  float: left;
+  padding: 0;
+  text-align: left;
+}
+.listSkills {
+  margin-top: 36px;
+  list-style: none;
+  margin-bottom: 24px;
+}
+.listSkills li {
+  position: relative;
+  margin-bottom: 60px;
+  background: #ccc;
+  height: 42px;
+  border-radius: 3px;
+  line-height: 18px;
+}
+.bar-expand {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding-right: 24px;
+  background: #313131;
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 3px 0 0 3px;
+}
+.listSkills li em {
+  font: 15px "opensans-bold", sans-serif;
+  color: #313131;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  position: relative;
+  top: -36px;
+}
+.listSkills li span {
+  color: yellowgreen;
+  padding: 0 0 0 1rem;
+}
+.html5 {
+  width: 80%;
+}
+.css3 {
+  width: 60%;
+}
+.VJ {
+  width: 55%;
+}
+.React {
+  width: 40%;
+}
+.Redux {
+  width: 10%;
+}
+
 //Contact section
+
 .contact-a {
   align-content: center;
   justify-content: center;
   text-align: center;
-  background-color: #2B2B2B;
+  background-color: #2b2b2b;
   padding: 3rem 10rem;
 }
-.container{
-  
+.container {
   padding: 3rem;
   background-color: #fff;
   width: 53%;
@@ -229,6 +331,7 @@ body {
   padding: 2rem;
 
   //Grid area
+
   .name-input {
     grid-area: "name";
   }
@@ -264,54 +367,51 @@ body {
   transform: scale(3rem);
 }
 footer {
-  padding-top: 3rem;
-  margin-bottom: 3rem;
   background-color: $footer-bg-color;
-  font-size: 0.875rem;
+  padding-top: 48px;
+  margin-bottom: 48px;
+  color: #303030;
+  font-size: 14px;
   text-align: center;
   position: relative;
-  display: flex;
-  color: $main-white;
+  height: 17%;
 }
-.footerOne {
+.footerRow {
   width: 96%;
-  max-width: 63.75rem;
+  max-width: 1020px;
   margin: 0 auto;
-  display: contents;
+}
+
+.footerColumn {
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: left;
+  width: 100%;
 }
 .socialLinks {
-  position: relative;
-  padding: 0 1.25rem;
-  min-height: 0.0625rem;
-  float: left;
-  left: 42.875rem;
-
-  ul {
-    margin: 18px 0 30px 0;
-    padding: 0;
-    font-size: 30px;
-  }
+  margin: 18px 0 30px 0;
+  padding: 0;
+  font-size: 30px;
   li {
     display: inline-block;
-    padding: 0.5rem 0.8125rem;
-    line-height: 2rem;
-    align-items: center;
-    margin-left: -10rem;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+    color: #f06000;
   }
   & ul:first-child {
-    margin-left: 4rem;
+    margin-left: 0;
   }
 }
 .copyright {
-  margin: 5rem;
+  margin: 18px 0 30px 0;
   padding: 0;
-  position: relative;
-  right: 11rem;
-  left: 20rem;
 
   li {
     display: inline;
     margin: 0.3rem;
     align-items: center;
+    color: $main-white;
   }
 }

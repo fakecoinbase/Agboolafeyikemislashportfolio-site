@@ -31,6 +31,9 @@
             <a class="link" href="#aboutMe">About</a>
           </li>
           <li>
+              <a class="link" href="#resume">Resume</a>
+            </li>
+          <li>
             <a class="link" href="#contact">Contact</a>
           </li>
         </ul>
@@ -93,56 +96,80 @@
       <section id="projects" class="projects">
         <h2>These are some of my projects</h2>
         <div class="projects-grid">
-          <div class="project">
-            <h4>Javascript Drum kit</h4>
-            <img src="img/Drumkit.png" alt="project picture" />
-            <a
-              href="https://agboolafeyiemi.github.io/-JavaScript-Drum-Kit/"
-              target="_black"
-            >
-              <p>
-                When you hit the corresponding key on your keyboard, its going
-                to do two things. First of all, it's going to play the sound
-                that's associated with that key and second of all, it's going to
-                do a little animation where it pops the button up to be a little
-                bit bigger than we want and apply yellow border and a little
-                background.
-              </p>
-            </a>
+          <a
+            href="https://countdown-timer-bb8210.netlify.com/"
+            target="_black"
+            class="project project-title"
+          >
+            <img
+              class="project-image"
+              src="img/countdownimg.png"
+              alt="project"
+            />
+            <p>Countdown Timer</p>
+          </a>
+
+          <a
+            href="https://drum-kits-f8b369.netlify.com/"
+            target="_black"
+            class="project project-title"
+          >
+            <img class="project-image" src="img/drumkit.png" alt="project" />
+            <p>Drum Kits</p>
+          </a>
+
+          <a
+            href="https://quote-generator-e51c2c.netlify.com/"
+            target="_black"
+            class="project project-title"
+          >
+            <img class="project-image" src="img/gt.png" alt="project" />
+            <p>Random Quote</p>
+          </a>
+        </div>
+      </section>
+      <section class="resume" id="resume">
+        <div class="skill">
+          <div class="header">
+            <h2>
+              <span>Skills</span>
+            </h2>
           </div>
-          <div class="project">
-            <h4>Javascript Drum kit</h4>
-            <img src="img/Drumkit.png" alt="project" />
-            <a
-              href="https://agboolafeyiemi.github.io/-JavaScript-Drum-Kit/"
-              target="_black"
-            >
-              <p>
-                When you hit the corresponding key on your keyboard, its going
-                to do two things. First of all, it's going to play the sound
-                that's associated with that key and second of all, it's going to
-                do a little animation where it pops the button up to be a little
-                bit bigger than we want and apply yellow border and a little
-                background.
-              </p>
-            </a>
-          </div>
-          <div class="project">
-            <h4 class="projectName">Javascript Drum kit</h4>
-            <img src="img/Drumkit.png" alt="project" />
-            <a
-              href="https://agboolafeyiemi.github.io/-JavaScript-Drum-Kit/"
-              target="_black"
-            >
-              <p>
-                When you hit the corresponding key on your keyboard, its going
-                to do two things. First of all, it's going to play the sound
-                that's associated with that key and second of all, it's going to
-                do a little animation where it pops the button up to be a little
-                bit bigger than we want and apply yellow border and a little
-                background.
-              </p>
-            </a>
+          <div class="row-skill">
+            <p>Here are some skills I have</p>
+            <div class="bar">
+              <ul class="listSkills">
+                <li>
+                  <span class="bar-expand html5">80%</span>
+                  <em>HTML5</em>
+                </li>
+
+                <li>
+                  <span class="bar-expand css3">
+                    60%
+                  </span>
+                  <em>CSS3</em>
+                </li>
+                <li>
+                  <span class="bar-expand VJ">
+                    55%
+                  </span>
+                  <em>Vanilla Javascript</em>
+                </li>
+                <li>
+                  <span class="bar-expand React">
+                    40%
+                  </span>
+                  <em>ReactJs</em>
+                </li>
+                <li>
+                  <span class="bar-expand Redux">
+                    10%
+                  </span>
+                  <em>Redux</em>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -150,7 +177,12 @@
         <div class="container">
           <h2 class="section-title">Contact Me</h2>
           <p class="lead">Here is how you can reach me</p>
-          <form action="mailto:agboolafeyikemi93@gmail.com" method="post" enctype="text/plain" id="myForm">
+          <form
+            action="mailto:agboolafeyikemi93@gmail.com"
+            method="post"
+            enctype="text/plain"
+            id="myForm"
+          >
             <div class="text-fields">
               <input
                 type="text"
@@ -174,18 +206,22 @@
                 class="text-input message-input"
                 placeholder="Enter Message"
                 name="textarea"
-              ></textarea
-              >
+              ></textarea>
             </div>
-            <input type="submit" class="btn-dark" value="Submit" id="handleSubmit">
+            <input
+              type="submit"
+              class="btn-dark"
+              value="Submit"
+              id="handleSubmit"
+            />
           </form>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="footerOne">
-        <div class="socialLinks">
-          <ul>
+      <div class="footerRow">
+        <div class="footerColumn">
+          <ul class="socialLinks">
             <li>
               <a
                 class="fa fa-linkedin-square"
@@ -208,19 +244,19 @@
               ></a>
             </li>
           </ul>
-        </div>
-        <div class="copyright">
-          <ul id="myList">
-            <li>
-              Made by
-              <a
-                title="Agboola Feyikemi"
-                href="https://www.linkedin.com/in/agboola-feyikemi-90637a172/"
-                target="_blank"
-                >Agboola Feyikemi</a
-              >
-            </li>
-          </ul>
+          <div class="copyright">
+            <ul id="myList">
+              <li>
+                Made by
+                <a
+                  title="Agboola Feyikemi"
+                  href="https://www.linkedin.com/in/agboola-feyikemi-90637a172/"
+                  target="_blank"
+                  >Agboola Feyikemi</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
