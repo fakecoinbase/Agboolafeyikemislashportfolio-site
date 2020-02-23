@@ -1,0 +1,13 @@
+//SMARTPHONES
+@media (max-width: 500px) {
+  .html,
+  .body {
+    overflow: hidden;
+  }
+  .nav {
+    display: none;
+  }
+  .footer {
+    height: 6rem;
+  }
+}
