@@ -1,6 +1,9 @@
 @import "config";
 @import "utilities";
 
+// Import media queries
+@import "media";
+
 body {
   margin: 0;
   padding: 0;
@@ -220,7 +223,7 @@ body {
   letter-spacing: 1px;
 }
 .header h2 span {
-  border-bottom: 3px solid #11ABB0;
+  border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
 }
 .row-skill {
@@ -374,7 +377,7 @@ footer {
   font-size: 14px;
   text-align: center;
   position: relative;
-  height: 17%;
+  height: 13%;
 }
 .footerRow {
   width: 96%;
