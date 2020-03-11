@@ -115,6 +115,7 @@ body {
     width: 26%;
     left: 310px;
     bottom: 176px;
+    text-align: center;
     &:hover {
       cursor: pointer;
       background-color: $primary-color;
@@ -245,7 +246,7 @@ body {
   border-radius: 3px 0 0 3px;
 }
 .listSkills li em {
-  font: 15px "opensans-bold", sans-serif;
+  font-size: 15px ;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: 2px;
