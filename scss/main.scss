@@ -129,11 +129,12 @@ body {
     background-color: $darkslategray;
     border-radius: 0.3rem;
     position: relative;
-    width: 34%;
+    width: 26%;
     left: 310px;
     bottom: 176px;
 
     &:hover {
+      cursor: pointer;
       background-color: $primary-color;
     }
 
@@ -218,12 +219,11 @@ body {
   width: 25%;
 }
 .header h2 {
-  font: 18px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 .header h2 span {
-  border-bottom: 3px solid #11abb0;
+  border-bottom: 3px solid yellowgreen;
   padding-bottom: 6px;
 }
 .row-skill {
