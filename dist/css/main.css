@@ -58,7 +58,10 @@ body {
   justify-content: space-around; }
   .nav ul {
     display: flex;
-    margin-right: 2rem; }
+    margin-right: 2rem; 
+    background-color: black;
+    border-radius: 4px;
+  }
   .nav li {
     display: inline-block;
     padding: 0.5rem 0.8125rem;
@@ -121,9 +124,12 @@ body {
     position: relative;
     width: 34%;
     left: 310px;
-    bottom: 176px; }
+    bottom: 176px;
+    text-align: center;
+  }
     .about .resume:hover {
-      background-color: greenyellow; }
+      background-color: greenyellow; 
+    cursor: pointer;}
     .about .resume .button {
       color: #fff; }
       .about .resume .button i {
@@ -185,12 +191,11 @@ body {
   width: 25%; }
 
 .header h2 {
-  font: 18px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px; }
 
 .header h2 span {
-  border-bottom: 3px solid #11abb0;
+  border-bottom: 3px solid greenyellow;
   padding-bottom: 6px; }
 
 .row-skill {
@@ -240,7 +245,7 @@ body {
   border-radius: 3px 0 0 3px; }
 
 .listSkills li em {
-  font: 15px "opensans-bold", sans-serif;
+  font-size: 15px;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: 2px;
