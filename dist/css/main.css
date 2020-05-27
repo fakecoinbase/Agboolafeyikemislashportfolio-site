@@ -173,11 +173,12 @@ body {
   font-size: 2rem;
   padding: 0 0.5rem;
 }
-.projects .project {
+/* .projects .project {
   background: cadetblue;
   box-shadow:0.0625rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.5);
   border-radius: 0.125rem;
-}
+} */
+
 .projects .project h4 {
   align-items: center;
   font-size: 0.0625rem;
@@ -292,7 +293,7 @@ body {
 .VJ {
   width: 55%;
 }
- 
+
 .React {
   width: 40%;
 }
@@ -327,7 +328,6 @@ body {
   margin-bottom: 1.2rem;
   padding: 2rem;
   flex-direction: column;
-  
 }
 
 .text-input {
@@ -353,7 +353,7 @@ body {
   transform: scale(3rem);
 }
 
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
@@ -428,18 +428,16 @@ footer {
   color: #fff;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .html,
   .body {
     overflow: hidden;
+    display: none;
   }
   .nav ul {
     display: none;
   }
   .footer {
     height: 6rem;
-  }
-  .projects .projects-grid img {
-    width: 25.9rem;
   }
 }
