@@ -13,7 +13,7 @@ a {
 }
 a[class=link]:hover {
     @extend %link-hover;
-    background-color: greenyellow;
+    background-color:  #fcb042;
     cursor: pointer;
 }
 a[class=resume]:hover {
