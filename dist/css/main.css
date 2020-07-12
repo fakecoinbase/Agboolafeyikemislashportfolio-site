@@ -57,7 +57,7 @@ body {
 }
 
 .bannerText h1 {
-  color: greenyellow;
+  color: #fcb042;
   letter-spacing: 0.1875rem;
   margin: 0 auto 1.125rem auto;
   text-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.8);
@@ -119,7 +119,7 @@ body {
   padding: 0.9375rem;
   float: right;
   right: 3.75rem;
-  background-color: darkslategray;
+  background-color: #fcb042;
   border-radius: 0.3rem;
   position: relative;
   width: 34%;
@@ -129,7 +129,7 @@ body {
 }
 
 .about .resume:hover {
-  background-color: greenyellow;
+  opacity: 0.9;
   cursor: pointer;
 }
 
@@ -212,7 +212,7 @@ body {
 }
 
 .header h2 span {
-  border-bottom: 0.1875rem solid greenyellow;
+  border-bottom: 0.1875rem solid #fcb042;
 }
 
 .row-skill {
@@ -278,7 +278,7 @@ body {
 }
 
 .listSkills li span {
-  color: yellowgreen;
+  color: #fcb042;
   padding: 0 0 0 1rem;
 }
 
@@ -291,7 +291,7 @@ body {
 }
 
 .VJ {
-  width: 55%;
+  width: 80%;
 }
 
 .React {
@@ -299,7 +299,14 @@ body {
 }
 
 .Redux {
-  width: 10%;
+  width: 60%;
+}
+
+.Typescript {
+  width: 40%;
+}
+.NodeJS {
+  width: 60%;
 }
 
 .contact-a {
@@ -376,7 +383,7 @@ a[class="resume"]:hover {
 footer {
   background-color: #303030;
   padding-top: 3rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   color: #303030;
   font-size: 0.875rem;
   text-align: center;
